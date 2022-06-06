@@ -1,7 +1,169 @@
-.header {
-  padding: 60px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-  font-size: 30px;
+
+header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    padding: 10px 0;
+    font-family: 'Ubuntu';
+    background: #ffffff;
+    top:0;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    padding: 10px 0;
+    font-family: 'Ubuntu';
+    background: #ffffff;
+    bottom:0;
+}
+header .container{
+    width: 90%; /* This is the inner width of the content inside of your header (80%, etc) */
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+header .logo{
+    display: table;
+    height: 100%;
+    float: left;
+}
+header nav{
+    float: right;
+    height: 100%;
+}
+
+header nav li{
+    display: table;
+    height: 100%;
+    float: left;
+    margin-right: 30px;
+}
+header nav span {
+    display: table-cell;
+    vertical-align: middle;
+}
+header nav a{
+    color: #101010;
+}
+.projectTitle {
+    font-size:60px;
+    padding: 5px;
+}
+.title {
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top:150px;
+    height: 500px;
+    font-family: 'Ubuntu';
+}
+section {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 40px;
+    position: inherit;
+    top: 40px;
+}
+.videomargin {
+    float: right;
+    margin-left:30px;
+}
+.videomargins {
+    float: left;
+    margin-right:30px;
+}
+figure {
+    padding: 10px;
+
+}
+
+.projects {
+    position: relative;
+    font-family:'Ubuntu';
+    margin-left:80px;
+    margin-right:80px;
+    background:#FFFFFF75;
+    z-index: 1;
+}
+body{
+    margin-left:auto;
+    margin-right:auto;
+    }
+main {
+    width: 100%;
+    height: 80%;
+    top:100px;
+    bottom:100px;
+    position:fixed;
+    background:linear-gradient(to right, #CFDEF0, #F0E1CF);
+    Overflow-y:scroll;
+}
+.background {
+    position:inherit;
+     top:0;
+     left:0;
+     width:100%;
+     height:100%;
+     overflow:hidden;
+     z-index: -1;
+}
+.background li {
+  width:30px;
+  height:30px;
+  background-color:#b89393;
+  position:absolute;
+  display:block;
+  bottom:-110px;
+  animation:animate 20s linear infinite;
+}
+.background li:nth-child(1) {
+  left:85%;
+  width:50px;
+  height:50px;
+  animation-delay:0s;
+}
+.background li:nth-child(2) {
+  left:10%;
+  width:30px;
+  height:30px;
+  animation-delay:1.5s;
+  animation-duration:10s;
+}
+.background li:nth-child(3) {
+  left:65%;
+  width:100px;
+  height:100px;
+  animation-delay:1.8s;
+  animation-duration:15s;
+}
+.background li:nth-child(4) {
+  left:35%;
+  width:50px;
+  height:50px;
+  animation-delay:2s;
+  animation-duration:5s;
+}
+.background li:nth-child(5) {
+  left:55%;
+  width:60px;
+  height:60px;
+  animation-delay:2s;
+  animation-duration:8s;
+}
+.background li:nth-child(6) {
+  left:20%;
+  width:70px;
+  height:70px;
+}
+@keyframes animate {
+  0% {
+    transform:translateY(0) rotate(0deg);
+    opacity:1;
+  }
+  100% {
+    transform:translateY(-1000px) rotate(360deg);
+    opacity:0;
+  }
 }
