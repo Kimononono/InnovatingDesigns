@@ -1,4 +1,6 @@
-
+* {
+  box-sizing: border-box;
+}
 header{
     width: 100%;
     height: 100px;
@@ -60,33 +62,97 @@ header nav a{
     font-family: 'Ubuntu';
 }
 section {
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 40px;
+    top-padding: 40px;
+    bottom-padding: 40px;
     position: inherit;
     top: 40px;
 }
-.videomargin {
+.passage {
+    font-size:20px;
+    padding: 30px;
+}
+.3marginR {
     float: right;
-    margin-left:30px;
+    width: 33.333%;
+    padding: 80px;
+position: absolute;
 }
-.videomargins {
+.2marginR {
+    float: right;
+    width: 50%;
+    padding: 30px;
+position: absolute;
+}
+.1marginR {
+    float: right;
+    width: 100%;
+    padding: 30px;
+position: absolute;
+}
+.5marginR {
+    float: right;
+    width: 20%;
+    padding: 20px;
+position: absolute;
+}
+.3marginL {
     float: left;
-    margin-right:30px;
+    width: 33.333%;
+    padding: 30px;
+position: absolute;
 }
+.2marginL {
+    float: left;
+    width: 50%;
+    padding: 30px;
+    position: absolute;
+}
+.1marginL {
+    float: left;
+    width: 100%;
+    padding: 30px;
+    position: absolute;
+}
+
 figure {
     padding: 10px;
 
 }
+article {
+  content: "";
+  clear: both;
+  display: table;
+}
+.noflow {
+    content: "";
+    clear: both;
+    display: table;
+    max-height:480px;
+    width: 100%;
+    position: inherit;
 
+}
+.noflowCenter {
+        display: inline-block;
+        justify-content: center;
+
+        position: inherit;
+
+        float: right;
+
+}
 .projects {
-    position: relative;
+    position: absolute;
     font-family:'Ubuntu';
-    margin-left:80px;
-    margin-right:80px;
+    width=100%;
+    padding-right: 4%;
+    padding-left: 4%;
+    margin-left:8%;
+    margin-right:8%;
     background:#FFFFFF75;
     z-index: 1;
 }
+
 body{
     margin-left:auto;
     margin-right:auto;
