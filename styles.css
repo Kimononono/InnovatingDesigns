@@ -9,6 +9,7 @@ header{
     font-family: 'Ubuntu';
     background: #ffffff;
     top:0;
+    z-index:8;
 }
 footer{
     width: 100%;
