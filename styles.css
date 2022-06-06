@@ -49,6 +49,17 @@ header nav span {
 header nav a{
     color: #101010;
 }
+
+header nav .button{
+    background-color: #1ab26b; /* This HEX is the color of the button */
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+header nav .button:hover{
+    filter: brightness(1.05);
+}
 .projectTitle {
     font-size:60px;
     padding: 5px;
