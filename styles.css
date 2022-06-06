@@ -48,11 +48,11 @@ header nav span {
     vertical-align: middle;
 }
 header nav a{
-    color: #101010;
+    color: #FFFFFF;
 }
 
 header nav .button{
-    background-color: #1ab26b; /* This HEX is the color of the button */
+    background-color: #000000; /* This HEX is the color of the button */
     color: #FFF;
     padding: 10px 20px;
     border-radius: 4px;
